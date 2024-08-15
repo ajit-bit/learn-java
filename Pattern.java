@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class First {
+public class Pattern{
     public static void main(String[] args) {
 /* 
         Scanner sc = new Scanner(System.in);
@@ -51,7 +51,7 @@ for(int i=1; i<=n; i++)
 }
     }
 }/* */
-
+//diamond
 Scanner sc=new Scanner(System.in);
 System.out.println("Enter the number");
 int n=sc.nextInt();
@@ -72,6 +72,7 @@ for(int i=n;i>=1;i--){
         System.out.print("*"+" ");
     }
     System.out.println();
+
 }
 sc.close();
    }
